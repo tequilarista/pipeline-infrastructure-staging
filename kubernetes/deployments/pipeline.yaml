@@ -15,7 +15,7 @@ spec:
         app: pipeline
     spec:
       containers:
-      - image: gcr.io/concise-base-204600/pipeline:2d16fb359e5c4d2b01849bfb328d2b40cd0be973
+      - image: gcr.io/concise-base-204600/pipeline:54aceb7c88eb7f2d8496eb47366007f62f46a833
         name: pipeline
         ports:
         - containerPort: 80
